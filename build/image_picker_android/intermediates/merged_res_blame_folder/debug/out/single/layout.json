@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/res/layout/notification_template_part_time.xml"
+    }
+]

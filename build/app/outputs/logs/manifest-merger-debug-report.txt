@@ -1,0 +1,450 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_contacts] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_contacts/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7893b87bfd140b90793b06ec50f6b7c6/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9f8e521832790d8fd13d1c81e942c133/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c09826e2563c7fb6b919a941726904be/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c68c8a8cf2d7c7801c5b8e2ea9d540d8/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c431add2376e3bf8b60f80a33b19b608/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/6250bec23c3c8c986e07c93a8b7237fc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e0d713d6c549394591e0af2aaf85ee39/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/53e78ef62bc14d9b6cc7531243877805/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/f478d22b439fbf97884e1736f12f5338/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e1019a72002787b5a41f4baa30ad8dc6/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/99d85674aed9a014cf87a9c73fcc1a37/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8cbcd3f41731a8d346d3bf28f796ea2e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/14749cb2a944ba0385e7ea2f5dbb6495/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1362620c672ec372bf131ea432e6583e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/fcd9d5964cc300f6d198acf20ba854a7/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/95a5d8c5510884f43daae11541d5cf05/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/047e9e3454fd926899b7903f3855f7d7/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/36df47a5399a455acfde647f5201aec2/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/23837a34507a41a1cc4f49c7c39aeee0/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/87747d3dc3d971baa225c49d2ac59c0e/jetified-firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1680e38f221411efc8861eb044f9e06a/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9537e80c1df06e17a001a7bb48921bf4/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/a0e30a87fbccb3ef91accbd57300ed14/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/763518c553a85c22bc62f4966622508a/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/cd3dd3c5c8d8e6b23f7742011fbf1b39/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9a9db877a8caddb2a2a749b67a916451/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b3937430831644536b1c2d109dcbf5cf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7d35e34938b518db0b3192e212bcff23/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/166998a8e864fdbf6d7dfcc65e7cfd37/jetified-grpc-android-1.48.1/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:3:5-71
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:3:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:4:5-72
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:4:22-70
+application
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:5:4-42:19
+MERGED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c09826e2563c7fb6b919a941726904be/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c09826e2563c7fb6b919a941726904be/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c68c8a8cf2d7c7801c5b8e2ea9d540d8/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c68c8a8cf2d7c7801c5b8e2ea9d540d8/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/6250bec23c3c8c986e07c93a8b7237fc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/6250bec23c3c8c986e07c93a8b7237fc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/53e78ef62bc14d9b6cc7531243877805/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/53e78ef62bc14d9b6cc7531243877805/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/36df47a5399a455acfde647f5201aec2/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/36df47a5399a455acfde647f5201aec2/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:6:9-36
+	android:icon
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:7:9-43
+activity#com.example.whatsapp_ui.MainActivity
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:8:9-36:20
+	android:launchMode
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:10:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:13:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:14:13-55
+	android:configChanges
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:12:13-163
+	android:theme
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:9:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:19:13-22:17
+	android:resource
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:21:15-52
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:20:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:28:13-31:17
+	android:resource
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:30:15-61
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:29:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:33:17-68
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:34:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:39:9-41:33
+	android:value
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:41:13-30
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml:40:13-44
+uses-sdk
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_contacts] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_contacts/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_contacts] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/flutter_contacts/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7893b87bfd140b90793b06ec50f6b7c6/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7893b87bfd140b90793b06ec50f6b7c6/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9f8e521832790d8fd13d1c81e942c133/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9f8e521832790d8fd13d1c81e942c133/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c09826e2563c7fb6b919a941726904be/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c09826e2563c7fb6b919a941726904be/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c68c8a8cf2d7c7801c5b8e2ea9d540d8/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c68c8a8cf2d7c7801c5b8e2ea9d540d8/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c431add2376e3bf8b60f80a33b19b608/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/c431add2376e3bf8b60f80a33b19b608/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/6250bec23c3c8c986e07c93a8b7237fc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/6250bec23c3c8c986e07c93a8b7237fc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e0d713d6c549394591e0af2aaf85ee39/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e0d713d6c549394591e0af2aaf85ee39/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/53e78ef62bc14d9b6cc7531243877805/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/53e78ef62bc14d9b6cc7531243877805/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/f478d22b439fbf97884e1736f12f5338/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/f478d22b439fbf97884e1736f12f5338/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e1019a72002787b5a41f4baa30ad8dc6/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/e1019a72002787b5a41f4baa30ad8dc6/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/99d85674aed9a014cf87a9c73fcc1a37/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/99d85674aed9a014cf87a9c73fcc1a37/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8cbcd3f41731a8d346d3bf28f796ea2e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8cbcd3f41731a8d346d3bf28f796ea2e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/14749cb2a944ba0385e7ea2f5dbb6495/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/14749cb2a944ba0385e7ea2f5dbb6495/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1362620c672ec372bf131ea432e6583e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1362620c672ec372bf131ea432e6583e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b4b7145f262fdd09f5516aa5e2c84c16/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/fcd9d5964cc300f6d198acf20ba854a7/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/fcd9d5964cc300f6d198acf20ba854a7/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/95a5d8c5510884f43daae11541d5cf05/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/95a5d8c5510884f43daae11541d5cf05/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/047e9e3454fd926899b7903f3855f7d7/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/047e9e3454fd926899b7903f3855f7d7/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/36df47a5399a455acfde647f5201aec2/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/36df47a5399a455acfde647f5201aec2/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/23837a34507a41a1cc4f49c7c39aeee0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/23837a34507a41a1cc4f49c7c39aeee0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/87747d3dc3d971baa225c49d2ac59c0e/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/87747d3dc3d971baa225c49d2ac59c0e/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1680e38f221411efc8861eb044f9e06a/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/1680e38f221411efc8861eb044f9e06a/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9537e80c1df06e17a001a7bb48921bf4/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9537e80c1df06e17a001a7bb48921bf4/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/a0e30a87fbccb3ef91accbd57300ed14/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/a0e30a87fbccb3ef91accbd57300ed14/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/763518c553a85c22bc62f4966622508a/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/763518c553a85c22bc62f4966622508a/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/cd3dd3c5c8d8e6b23f7742011fbf1b39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/cd3dd3c5c8d8e6b23f7742011fbf1b39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9a9db877a8caddb2a2a749b67a916451/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/9a9db877a8caddb2a2a749b67a916451/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b3937430831644536b1c2d109dcbf5cf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b3937430831644536b1c2d109dcbf5cf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7d35e34938b518db0b3192e212bcff23/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7d35e34938b518db0b3192e212bcff23/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/166998a8e864fdbf6d7dfcc65e7cfd37/jetified-grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/166998a8e864fdbf6d7dfcc65e7cfd37/jetified-grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/47cd6e56c0cd7fcb727765d8ca89b80a/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/166998a8e864fdbf6d7dfcc65e7cfd37/jetified-grpc-android-1.48.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/166998a8e864fdbf6d7dfcc65e7cfd37/jetified-grpc-android-1.48.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/8301a0694a05ed99ea8d544dda96fe75/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/38ee39375f801b0c4339616175cdf743/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/b58ea4d8b7e8e2c80f4a43bdb615d7f5/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/aa2edb4ad146115c4dadc545da24fd2d/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7a797a5cbf85d80e8a5f42a081a15097/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/gouthamm/.gradle/caches/transforms-2/files-2.1/7e2221faa2e037cac1d0f1d27a009a40/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
