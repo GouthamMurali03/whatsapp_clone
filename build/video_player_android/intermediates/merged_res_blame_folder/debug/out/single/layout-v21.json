@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/video_player_android/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/40c6d600da5b0eb98245d88a74e2c392/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/video_player_android/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/40c6d600da5b0eb98245d88a74e2c392/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/video_player_android/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/40c6d600da5b0eb98245d88a74e2c392/core-1.7.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/gouthamm/Documents/Projects/whatsapp-flutter-ui/build/video_player_android/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/gouthamm/.gradle/caches/transforms-2/files-2.1/40c6d600da5b0eb98245d88a74e2c392/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

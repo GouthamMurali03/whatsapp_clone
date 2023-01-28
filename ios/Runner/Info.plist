@@ -62,5 +62,7 @@
 	<string>WhatsApp requires permission to access the microphone</string>
 	<key>NSContactsUsageDescription</key>
 	<string>WhatsApp requires permission to acces your Contacts</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>WhatsApp required permission to access the recordings</string>
 </dict>
 </plist>

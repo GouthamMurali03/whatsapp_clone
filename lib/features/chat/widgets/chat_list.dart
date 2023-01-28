@@ -3,10 +3,10 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:whatsapp_ui/common/widgets/loader.dart';
 import 'package:whatsapp_ui/features/chat/controllers/chat_controller.dart';
+import 'package:whatsapp_ui/features/chat/widgets/my_message_card.dart';
+import 'package:whatsapp_ui/features/chat/widgets/sender_message_card.dart';
 import 'package:whatsapp_ui/info.dart';
 import 'package:whatsapp_ui/models/message.dart';
-import 'package:whatsapp_ui/widgets/my_message_card.dart';
-import 'package:whatsapp_ui/widgets/sender_message_card.dart';
 import 'package:intl/intl.dart';
 
 class ChatList extends ConsumerStatefulWidget {
@@ -38,6 +38,7 @@ class _ChatListState extends ConsumerState<ChatList> {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const Loader();
             }
+
             SchedulerBinding.instance.addPostFrameCallback((_) {
               _scrollController
                   .jumpTo(_scrollController.position.maxScrollExtent);
@@ -51,11 +52,13 @@ class _ChatListState extends ConsumerState<ChatList> {
                   return MyMessageCard(
                     message: messageData.text.toString(),
                     date: DateFormat.Hm().format(messageData.timeSent),
+                    type: messageData.type,
                   );
                 }
                 return SenderMessageCard(
                   message: messageData.text.toString(),
                   date: DateFormat.Hm().format(messageData.timeSent),
+                  type: messageData.type,
                 );
               },
             );

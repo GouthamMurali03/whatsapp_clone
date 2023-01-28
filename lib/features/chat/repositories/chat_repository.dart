@@ -1,8 +1,11 @@
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:whatsapp_ui/common/enums/message_enum.dart';
+import 'package:whatsapp_ui/common/repositories/common_firebase_storage_repository.dart';
 import 'package:whatsapp_ui/common/utils/utils.dart';
 import 'package:whatsapp_ui/models/chat_contact.dart';
 import 'package:whatsapp_ui/models/message.dart';
@@ -183,5 +186,61 @@ class ChatRepository {
 
       return chatMessageList;
     });
+  }
+
+  void sendFileMessage(
+      {required BuildContext context,
+      required File file,
+      required String recieverUserId,
+      required UserModel senderUser,
+      required ProviderRef ref,
+      required MessageEnum messageEnum}) async {
+    try {
+      var timeSent = DateTime.now();
+      String messageId = const Uuid().v1();
+      String imageUrl = await ref
+          .read(commonFirebaseStorageRepositoryProvider)
+          .storeFileToFirebase(
+              'chat/${messageEnum.type}/${senderUser.uid}/$recieverUserId/$messageId',
+              file);
+
+      var recieverUserMap =
+          await firestore.collection('users').doc(recieverUserId).get();
+      UserModel recieverUserData = UserModel.fromMap(recieverUserMap.data()!);
+
+      String contactMsg;
+
+      switch (messageEnum) {
+        case (MessageEnum.image):
+          contactMsg = '📸 Image';
+          break;
+        case (MessageEnum.video):
+          contactMsg = '🎥 Video';
+          break;
+        case (MessageEnum.audio):
+          contactMsg = '🔊 Audio';
+          break;
+        case (MessageEnum.gif):
+          contactMsg = 'GIF';
+          break;
+
+        default:
+          contactMsg = 'GIF';
+      }
+
+      _saveDataToContactsSubCollection(
+          senderUser, recieverUserData, contactMsg, timeSent, recieverUserId);
+
+      _saveMessageToMessageSubCollection(
+          recieverUserId: recieverUserId,
+          text: imageUrl,
+          timeSent: timeSent,
+          messageId: messageId,
+          senderUserName: senderUser.name,
+          recieverUserName: recieverUserData.name,
+          messageType: messageEnum);
+    } catch (e) {
+      showSnackBar(context, e.toString());
+    }
   }
 }
